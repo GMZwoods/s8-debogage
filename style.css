@@ -3,8 +3,14 @@
     padding : 2px;
     padding-bottom: 3em;
     border: 1px solid black;
-    margin: auto;
     vertical-align: center;
+    margin: 0.5rem;
+
+}
+.nombres
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cache {
@@ -14,9 +20,10 @@
 .erreur {
     color: red;
     border: 1px solid red;
+    box-sizing: content-box;
 }
 
-.succes {
+.success {
     color: #009527;
     background-color : #a9e9aa;
 }
